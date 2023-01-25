@@ -1,0 +1,97 @@
+html{
+    background: #42275a;
+    background: -webkit-linear-gradient(to right, #42275a, #734b6d);
+    background: linear-gradient(to right, #42275a,#734b6d);
+}
+
+.myContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 70vh;
+    padding-top: 1rem;
+}
+
+.myImage {
+    border-radius: 50%;
+    border: 0;
+    margin-top: 1rem;
+}
+
+.myName {
+    margin-top: 1rem;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.myJobProfile {
+    margin-top: 1rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.myDescription {
+    margin-top: 3rem;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    max-width: 40rem;
+    color: #dcdcdd;
+}
+
+.myConnectText {
+    margin-top: 2rem;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: white;
+}
+
+
+/**
+    Typewriter effect
+*/
+
+.myDescriptionTypewriter {
+    position: relative;
+    top: 50%;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 17px;
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 4.6s steps(44) forwards;
+}
+
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 24.5em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+
